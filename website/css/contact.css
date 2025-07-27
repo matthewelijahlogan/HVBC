@@ -4,11 +4,12 @@
   max-width: 700px;
   margin: 3rem auto;
   padding: 0 1rem;
-  color: var(--white);
+  color: var(--pink);
+  background: 
 }
 
 h2 {
-  font-family: 'Bangers', cursive;
+  font-family: 'Overlock Bold', cursive;
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 1rem;
@@ -27,7 +28,7 @@ p {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  background-color: var(--gunmetal);
+  background-color: var(--white);
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
@@ -37,7 +38,7 @@ p {
   font-weight: bold;
   font-size: 1.1rem;
   margin-bottom: 0.3rem;
-  color: var(--pink);
+  color: var(--charcoal);
 }
 
 .contact-form input,
@@ -45,7 +46,7 @@ p {
   padding: 0.75rem 1rem;
   border: 2px solid var(--pink);
   border-radius: 6px;
-  background-color: var(--gunmetal);
+  background-color: var(--white);
   color: var(--white);
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1rem;
@@ -68,7 +69,7 @@ p {
   border-radius: 8px;
   font-weight: 700;
   background-color: var(--pink);
-  color: var(--gunmetal);
+  color: var(--white);
   border: none;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -81,7 +82,7 @@ p {
 /* Contact info section */
 .contact-info {
   margin-top: 3rem;
-  background-color: var(--gunmetal);
+  background-color: var(--white);
   padding: 1.5rem 2rem;
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
@@ -90,7 +91,7 @@ p {
 }
 
 .contact-info h3 {
-  font-family: 'Bangers', cursive;
+  font-family: 'Overlock Bold', cursive;
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
   color: var(--pink);
@@ -99,7 +100,7 @@ p {
 .contact-info p {
   font-size: 1.1rem;
   margin-bottom: 1rem;
-  color: var(--white);
+  color: var(--charcoal);
 }
 
 .contact-info a {

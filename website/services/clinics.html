@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8" >
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tournament Play | Ho'oponopono</title>
+  <title>Clinics & Camps | Heart & Soul Training</title>
   <link rel="stylesheet" href="../css/styles.css">
-  <link rel="stylesheet" href="services_css/tournament.css">
+  <link rel="stylesheet" href="services_css/clinics_camps.css">
 </head>
 <body>
   <header>
     <div class="logo" onclick="toggleMenu()">
       <img src="../img/club_logo.png" alt="Club Logo">
-      <span class="club-title">HVBC</span>
+      <span class="club-title"></span>
     </div>
     <nav id="dropdownMenu">
       <a href="../index.html">Home</a>
@@ -22,50 +22,71 @@
   </header>
 
   <main class="service-container">
-    <h1>Tournament Play</h1>
+    <h1>Clinics & Camps</h1>
 
     <section class="service-description">
       <p>
-        Join our competitive tournament teams that challenge your skills and build lasting teamwork.
+        Join our competitive clinics and camps that challenge your skills and build lasting teamwork.
       </p>
-      <img src="../img/tournament_placeholder.jpg" alt="Tournament Play">
+      <img src="../img/clinics_placeholder.png" alt="Clinics & Camps">
     </section>
 
     <section class="service-details">
       <h2>What We Offer</h2>
       <ul>
-        <li>Weekly tournament matches</li>
+        <li>Skill development sessions</li>
+        <li>Peer to Peer competition</li>
         <li>Professional coaching and strategy</li>
-        <li>Team uniforms and equipment</li>
-        <li>Travel support for select tournaments</li>
+        <li>One on One mentorship</li>
       </ul>
     </section>
 
     <section class="service-pricing">
       <h2>Pricing</h2>
-      <p>Team tryout fee: $40 per session</p>
-      <p>Season fee: $300</p>
+      <p>For 1 athlete: $40 per session</p>
+      <p>For 2 athletes: $75 per session</p>
     </section>
 
     <section class="service-signup">
       <h2>Sign Up</h2>
-      <form id="signupForm">
-        <label for="playerName">Player Name:</label>
-        <input type="text" id="playerName" name="playerName" required>
+        <form class="contact-form" action="https://formsubmit.co/jlcvb20@gmail.com" method="POST" novalidate>
+          <!-- Honeypot to block bots -->
+          <input type="text" name="_honey" style="display:none">
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+          <!-- Disable CAPTCHA (optional) -->
+          <input type="hidden" name="_captcha" value="false">
 
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" required>
+          <!-- Redirect after submit -->
+          <input type="hidden" name="_next" value="https://matthewelijahlogan.github.io/Heart-Soul/thankyou.html">
 
-        <button type="submit">Register for Tryouts</button>
-      </form>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+          <label for="age">Age</label>
+          <input type="text" id="age" name="age" placeholder="Your age" required>
+
+          <label for="school">School</label>
+          <input type="text" id="school" name="school" placeholder="(optional)">
+
+          <label for="position">Position</label>
+          <input type="text" id="position" name="position" placeholder="(optional)">
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="(optional)">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Ho'oponopono. All rights reserved.</p>
+    <p>&copy; 2025 Heart & Soul Training. All rights reserved.</p>
   </footer>
 
   <script src="../js/script.js"></script>
